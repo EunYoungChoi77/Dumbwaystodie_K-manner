@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>K-Manner Survival</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- 메인 -->
+  <div id="main" class="screen active">
+    <h1>K-MANNER</h1>
+    <button id="start">START</button>
+  </div>
+
+  <!-- HUD -->
+  <div id="hud">
+    <div id="timer"></div>
+  </div>
+
+  <!-- 게임 -->
+  <div id="stage" class="screen">
+    <img id="bg" src="assets/bg1.png">
+    <div id="game-area"></div>
+  </div>
+
+  <!-- 게임오버 -->
+  <div id="over" class="screen">
+    <h2>GAME OVER</h2>
+    <button id="retry">RETRY</button>
+  </div>
+
+  <!-- 컷씬 -->
+  <div id="cut" class="hidden">
+    <div id="cut-text"></div>
+  </div>
+
+  <!-- 사운드 -->
+  <audio id="sfx-ok" src="assets/success.mp3"></audio>
+  <audio id="sfx-no" src="assets/fail.mp3"></audio>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
