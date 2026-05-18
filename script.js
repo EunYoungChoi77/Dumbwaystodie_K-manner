@@ -260,4 +260,5 @@ const game=new Game();
 
 document.getElementById('start').onclick=()=>game.start();
 document.getElementById('retry').onclick=()=>show('main');
-
+<script src="script.js"></script>
+</body>
